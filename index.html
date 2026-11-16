@@ -72,7 +72,7 @@
     </header>
 
     <main>
-        
+
       <section id="inicio" class="mx-auto max-w-6xl px-4 py-12">
         <div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
           <div class="space-y-4">
@@ -217,7 +217,134 @@
         </div>
       </section>
 
-      <!-- AQUÍ IRÁN: Sección 3 Habilidades, 4 Proyectos, 5 Ruta y horario, 6 Contacto -->
+      <section id="habilidades" class="mx-auto max-w-6xl px-4 py-12">
+        <h2 class="text-2xl font-semibold text-white">Habilidades</h2>
+        <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="space-y-4 rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <h3 class="text-xl font-semibold text-violet-400">Frontend web</h3>
+            <p class="leading-relaxed text-slate-300">Construyo interfaces limpias, accesibles y responsive con HTML semántico y CSS.</p>
+            <ul class="flex flex-wrap gap-2">
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">HTML</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">CSS</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">Bootstrap 5</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">Tailwind CSS</li>
+            </ul>
+          </article>
+
+          <article class="space-y-4 rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <h3 class="text-xl font-semibold text-violet-400">Backend y lógica</h3>
+            <p class="leading-relaxed text-slate-300">Fortalezco mi lógica de programación resolviendo problemas con C# (.NET) y Java.</p>
+            <ul class="flex flex-wrap gap-2">
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">C# (.NET)</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">Java</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="space-y-4 rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <h3 class="text-xl font-semibold text-violet-400">Bases de datos</h3>
+            <p class="leading-relaxed text-slate-300">Gestiono y consulto datos relacionales con SQL Server.</p>
+            <ul class="flex flex-wrap gap-2">
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">SQL Server</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">SQL</li>
+            </ul>
+          </article>
+
+          <article class="space-y-4 rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <h3 class="text-xl font-semibold text-violet-400">Herramientas</h3>
+            <p class="leading-relaxed text-slate-300">Versiono mi trabajo con commits descriptivos y publico mis proyectos en GitHub Pages.</p>
+            <ul class="flex flex-wrap gap-2">
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">Git</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">GitHub</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">GitHub Pages</li>
+              <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">VS Code</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="proyectos" class="mx-auto max-w-6xl px-4 py-12">
+        <h2 class="text-2xl font-semibold text-white">Proyectos</h2>
+        <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+
+          <article class="flex flex-col justify-between overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-lg">
+            <div>
+              <img src="./img/proyecto-rueda-libre.png" alt="Captura de la página de inicio de Rueda Libre" class="h-48 w-full object-cover">
+              <div class="space-y-2 p-6">
+                <h3 class="text-xl font-semibold text-violet-400">Rueda Libre</h3>
+                <p class="leading-relaxed text-slate-300">Plataforma web responsive de alquiler de bicicletas en Medellín.</p>
+                <ul class="flex flex-wrap gap-2 pt-2">
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">HTML</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">CSS</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">Bootstrap 5</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-4 px-6 pb-6">
+              <a href="https://github.com/JuanjoV7/rueda-libre" target="_blank" class="rounded-lg border-2 border-violet-400 px-5 py-2.5 font-semibold text-violet-400 hover:bg-slate-800 focus:ring-4 focus:ring-violet-300 focus:outline-hidden">Ver código (GitHub)</a>
+              <a href="https://juanjov7.github.io/rueda-libre/" target="_blank" class="rounded-lg bg-violet-600 px-5 py-2.5 font-semibold text-white shadow-md hover:bg-violet-700 focus:ring-4 focus:ring-violet-300 focus:outline-hidden">Ver demo</a>
+            </div>
+          </article>
+
+          <article class="flex flex-col justify-between overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-lg">
+            <div>
+              <img src="./img/proyecto-huellitas-milu.png" alt="Captura de la página de inicio de Huellitas Milú" class="h-48 w-full object-cover">
+              <div class="space-y-2 p-6">
+                <h3 class="text-xl font-semibold text-violet-400">Huellitas Milú</h3>
+                <p class="leading-relaxed text-slate-300">Aplicación web para la gestión y solicitud de citas veterinarias.</p>
+                <ul class="flex flex-wrap gap-2 pt-2">
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">HTML</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">CSS</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">Bootstrap 5</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-4 px-6 pb-6">
+              <a href="https://github.com/kkokotero/huellitas-milu/" target="_blank" class="rounded-lg border-2 border-violet-400 px-5 py-2.5 font-semibold text-violet-400 hover:bg-slate-800 focus:ring-4 focus:ring-violet-300 focus:outline-hidden">Ver código (GitHub)</a>
+              <a href="https://kkokotero.github.io/huellitas-milu/" target="_blank" class="rounded-lg bg-violet-600 px-5 py-2.5 font-semibold text-white shadow-md hover:bg-violet-700 focus:ring-4 focus:ring-violet-300 focus:outline-hidden">Ver demo</a>
+            </div>
+          </article>
+
+          <article class="flex flex-col justify-between overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-lg">
+            <div>
+              <img src="./img/proyecto-portafolio.png" alt="Captura de la portada de este portafolio" class="h-48 w-full object-cover">
+              <div class="space-y-2 p-6">
+                <h3 class="text-xl font-semibold text-violet-400">Portafolio personal</h3>
+                <p class="leading-relaxed text-slate-300">Este sitio web responsive, construido desde cero con Tailwind CSS.</p>
+                <ul class="flex flex-wrap gap-2 pt-2">
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">HTML</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">Tailwind CSS</li>
+    
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-4 px-6 pb-6">
+              <a href="https://github.com/JuanjoV7/portafolio/" target="_blank" class="rounded-lg border-2 border-violet-400 px-5 py-2.5 font-semibold text-violet-400 hover:bg-slate-800 focus:ring-4 focus:ring-violet-300 focus:outline-hidden">Ver código (GitHub)</a>
+              <a href="https://juanjov7.github.io/portafolio/" target="_blank" class="rounded-lg bg-violet-600 px-5 py-2.5 font-semibold text-white shadow-md hover:bg-violet-700 focus:ring-4 focus:ring-violet-300 focus:outline-hidden">Ver demo</a>
+            </div>
+          </article>
+
+          <article class="flex flex-col justify-between overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-lg">
+            <div>
+              <img src="./img/proyecto-tecni-control.png" alt="Captura de la portada de este portafolio" class="h-48 w-full object-cover">
+              <div class="space-y-2 p-6">
+                <h3 class="text-xl font-semibold text-violet-400">TecniControl</h3>
+                <p class="leading-relaxed text-slate-300">Aplicación web para gestión y mantenimiento de equipos (en proceso).</p>
+                <ul class="flex flex-wrap gap-2 pt-2">
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">HTML</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">Tailwind CSS</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">C#</li>
+                  <li class="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-sm text-cyan-400">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-4 px-6 pb-6">
+              <a href="https://github.com/JuanjoV7/TecniControl2026/" target="_blank" class="rounded-lg border-2 border-violet-400 px-5 py-2.5 font-semibold text-violet-400 hover:bg-slate-800 focus:ring-4 focus:ring-violet-300 focus:outline-hidden">Ver código (GitHub)</a>
+              <span class="rounded-lg border border-slate-700 bg-slate-800 px-5 py-2.5 font-semibold text-slate-400">En desarrollo (Backend)</span>
+            </div>
+          </article>
+
     </main>
   </body>
 </html>

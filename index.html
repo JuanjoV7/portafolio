@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Juan Viana, coder de desarrollo de software en formación."
+    />
+    <meta name="author" content="Juan Viana" />
+    <title>Juan Viana | Portafolio</title>
+
+    <!-- Tipografía: Google Fonts (apuntes de CSS: "Colores, tipografías y variables") -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --font-display: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="font-display bg-slate-950 text-slate-100">
+    <header class="border-b border-slate-800 bg-slate-900">
+      <div
+        class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-4"
+      >
+        <a
+          href="#inicio"
+          class="text-xl font-semibold text-violet-400 hover:text-violet-300"
+          >Juan Viana</a
+        >
+        <nav>
+          <ul class="flex flex-wrap gap-4 text-sm text-slate-300 md:gap-6">
+            <li>
+              <a href="#sobre-mi" class="hover:text-violet-400 hover:underline"
+                >Sobre mí</a
+              >
+            </li>
+            <li>
+              <a
+                href="#habilidades"
+                class="hover:text-violet-400 hover:underline"
+                >Habilidades</a
+              >
+            </li>
+            <li>
+              <a href="#proyectos" class="hover:text-violet-400 hover:underline"
+                >Proyectos</a
+              >
+            </li>
+            <li>
+              <a href="#ruta" class="hover:text-violet-400 hover:underline"
+                >Mi ruta</a
+              >
+            </li>
+            <li>
+              <a href="#contacto" class="hover:text-violet-400 hover:underline"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        
+      <section id="inicio" class="mx-auto max-w-6xl px-4 py-12">
+        <div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+          <div class="space-y-4">
+            <p
+              class="text-sm font-semibold tracking-wide text-cyan-400 uppercase"
+            >
+              Hola, soy
+            </p>
+            <h1
+              class="text-3xl font-semibold text-white sm:text-4xl lg:text-5xl"
+            >
+              Juan José Viana Mora
+            </h1>
+            <p class="text-lg text-violet-400">
+              Coder en formación · Estudiante de Desarrollo de software
+            </p>
+            <p class="leading-relaxed text-slate-300">
+              Estudiante de Desarrollo de Software en el ITM y coder en
+              formación en Riwi. Construyo interfaces web responsive con HTML,
+              CSS y Tailwind, mientras fortalezco mi lógica de programación y
+              gestión de bases de datos con Java, C#, JavaScript y SQL.
+            </p>
+
+            <div class="flex flex-wrap gap-4">
+              <a
+                href="#proyectos"
+                class="rounded-lg bg-violet-600 px-5 py-2.5 font-semibold text-white shadow-md hover:bg-violet-700 focus:ring-4 focus:ring-violet-300 focus:outline-hidden"
+                >Ver proyectos</a
+              >
+              <a
+                href="#contacto"
+                class="rounded-lg border-2 border-violet-400 px-5 py-2.5 font-semibold text-violet-400 hover:bg-slate-800 focus:ring-4 focus:ring-violet-300 focus:outline-hidden"
+                >Contáctame</a
+              >
+            </div>
+
+            <ul class="flex flex-wrap gap-2 pt-2">
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                HTML
+              </li>
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                CSS
+              </li>
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                Bootstrap
+              </li>
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                Tailwind CSS
+              </li>
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                Git y GitHub
+              </li>
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                C#
+              </li>
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                SQL
+              </li>
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                Java
+              </li>
+              <li
+                class="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-cyan-400"
+              >
+                JavaScript
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex justify-center">
+            <img
+              src="./img/foto-perfil.jpg"
+              alt="Foto personal Juan Viana"
+              class="size-48 rounded-full border-2 border-violet-400 object-cover md:size-64"
+            />
+          </div>
+        </div>
+      </section>
+
+
+      <section id="sobre-mi" class="mx-auto max-w-6xl px-4 py-12">
+        <h2 class="text-2xl font-semibold text-white">Sobre mí</h2>
+        <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
+          <article
+            class="space-y-4 rounded-xl border border-slate-800 bg-slate-900 p-6 md:col-span-2"
+          >
+            <h3 class="text-xl font-semibold text-violet-400">
+              No sigo estándares, construyo los míos
+            </h3>
+            <p class="leading-relaxed text-slate-300">
+              Soy Juan José Viana Mora, tengo 19 años y vivo en Medellín. Desde
+              pequeño me llamó mucho la atención el mundo de los sistemas, la
+              informática y entender cómo funciona el código detrás de cada
+              pantalla. Esa curiosidad me llevó a iniciar mi carrera de
+              Desarrollo de Software en el ITM y a complementar mi formación
+              práctica como coder en Riwi, donde todos los días pongo a prueba
+              lo que aprendo construyendo proyectos reales.
+            </p>
+            <p class="leading-relaxed text-slate-300">
+              Actualmente me enfoco en crear interfaces web limpias, accesibles
+              y responsive con HTML, CSS, Bootstrap y Tailwind CSS, mientras
+              fortalezco mi lógica de programación y gestión de bases de datos
+              en SQL Server con Java, C# (.NET) y JavaScript. Mi meta es
+              convertirme en un desarrollador full stack con bases sólidas en
+              ciberseguridad para crear soluciones completas, eficientes y
+              seguras.
+            </p>
+          </article>
+
+          <aside class="rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <h3 class="text-xl font-semibold text-violet-400">Datos rápidos</h3>
+            <ul class="mt-4 space-y-2 text-slate-300">
+              <li><strong class="text-white">Ciudad:</strong> Medellín</li>
+              <li>
+                <strong class="text-white">Estudio:</strong> Desarrollo de
+                Software
+              </li>
+              <li>
+                <strong class="text-white">Actualmente:</strong> Coder en Riwi
+              </li>
+              <li>
+                <strong class="text-white">Inglés:</strong> B1 · Intermedio
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <!-- AQUÍ IRÁN: Sección 3 Habilidades, 4 Proyectos, 5 Ruta y horario, 6 Contacto -->
+    </main>
+  </body>
+</html>
